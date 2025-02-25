@@ -112,7 +112,7 @@ ol {
   border: none;
   border-block: 1px #fff solid;
   outline: none;
-  caret-color: #fff; 
+  caret-color: #fff;
 }
 
 .search-form__textfield::placeholder {
@@ -302,7 +302,7 @@ ol {
   max-width: 100%;
 }
 
-.content__card-link_current{
+.content__card-link_current {
   background-color: #545050;
 }
 
@@ -369,4 +369,3 @@ ol {
   margin-top: 30px;
   margin-bottom: 1px;
 }
-
