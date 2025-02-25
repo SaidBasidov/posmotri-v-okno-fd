@@ -106,18 +106,18 @@ ol {
 
 .search-form__textfield {
   appearance: none;
-  background-color: transparent;
+  background-color: inherit;
   width: 225px;
   height: 27px;
   border: none;
   border-block: 1px #fff solid;
   outline: none;
-  caret-color: #fff;
+  caret-color: #fff; 
 }
 
 .search-form__textfield::placeholder {
   color: rgba(255, 255, 255, 0.7);
-  font-family: "Fira Sans Condensed";
+  font-family: "Fira Sans Condensed", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -126,7 +126,7 @@ ol {
 
 .search-form__textfield:not(:placeholder-shown) {
   background-color: transparent;
-  font-family: "Fira Sans Condensed";
+  font-family: "Fira Sans Condensed", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -148,7 +148,7 @@ ol {
 }
 
 .search-form__fieldset-title {
-  font-family: "Fira Sans Condensed";
+  font-family: "Fira Sans Condensed", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -165,7 +165,7 @@ ol {
 }
 
 .search-form__label-text {
-  font-family: "Fira Sans Condensed";
+  font-family: "Fira Sans Condensed", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -220,9 +220,9 @@ ol {
 
 .button {
   align-self: flex-end;
-  background-color: transparent;
+  background-color: inherit;
   border: 1px solid #fff;
-  font-family: "Fira Sans Condensed";
+  font-family: "Fira Sans Condensed", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -264,7 +264,7 @@ ol {
 /* content-title */
 
 .title {
-  font-family: "Oswald";
+  font-family: "Oswald", monospace;
   font-style: normal;
   font-weight: 700;
   font-size: 75px;
@@ -302,6 +302,10 @@ ol {
   max-width: 100%;
 }
 
+.content__card-link_current{
+  background-color: #545050;
+}
+
 .content__video-card:hover .content__video-card-title,
 .content__video-card:hover .content__video-card-description {
   text-decoration: underline;
@@ -334,7 +338,7 @@ ol {
 }
 
 .content__video-card-title {
-  font-family: "Oswald";
+  font-family: "Oswald", monospace;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -348,7 +352,7 @@ ol {
 }
 
 .content__video-card-description {
-  font-family: "Fira Sans Condensed";
+  font-family: "Fira Sans Condensed", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -366,4 +370,3 @@ ol {
   margin-bottom: 1px;
 }
 
-/* удачного дня) */
